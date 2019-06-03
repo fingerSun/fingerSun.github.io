@@ -4,7 +4,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>个人简历首页</title>
+	<title>个人网站首页</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -415,16 +415,12 @@
 					<h2>爱好---相册</h2>
 				</div>
 			</div>
-			<%ArrayList l = (ArrayList)request.getAttribute("l");%>
-			<%
-            for(int i = 0;i < l.size();i++){
-            	 albue a = (albue)l.get(i);
-            %>
+		
              
             
 			<div class="row">
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(..<%=a.address %>;">
+					<a href="#" class="work" style="background-image: url(./images/portfolio-1.jpg);">
 						<div class="desc">
 							<h3>宠狗狂魔</h3>
 							<span>汪汪汪</span>
@@ -488,7 +484,6 @@
 					</a>
 				</div>
 			</div>
-			 <%}%>
 		</div>
 	</div>
 	
